@@ -1,0 +1,51 @@
+body {
+  text-align: left;
+  font-size: 15px;
+  font-family: sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#survey-form {
+  border-radius: 20px;
+  position: relative;
+  padding: 50px;
+  text-align: center;
+  background-color: white;
+  opacity: 0.8;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#title {
+  text-shadow: 5px black;
+}
+
+#description{
+  text-shadow: 1px 1px 5px black;
+  font-size: 20px;
+  font-style: oblique;
+}
+
+.header {
+  text-align: center;
+  color: white;
+}
+
+
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: var(--color-white);
+    background-image: url('/Users/Matt/survey/images/e-corp-logo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
